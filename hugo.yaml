@@ -1,0 +1,70 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: ""
+theme: ["PaperMod"]
+
+taxonomies:
+    tag: tags
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+
+summaryLength: 40
+
+params:
+    ShowReadingTime: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowShareButtons: false
+    assests:
+        js:
+            - /js/bookmarks.js
+            - /js/blog.js
+    defaultTheme: auto
+    mainSections:
+        - blog
+    homeInfoParams:
+        Title: Anish Singla
+        Content: Software Developer, working on my curosity
+
+    socialIcons:
+        - name: "github"
+          url: "https://github.com/singlaanish56"
+        - name: "leetcode"
+          url: "https://leetcode.com/u/singlaanish56/"
+        - name: "linkedin"
+          url: "https://www.linkedin.com/in/singlaanish56/"
+        - name: "email"
+          url: "mailto:singlaanish56@gmail.com"
+        - name: "x"
+          url: "https://x.com/singlaanish56"
+        - name: "twitch"
+          url: "https://www.twitch.tv/singlaanish56"
+        - name: "goodreads"
+          url: "https://www.goodreads.com/user/show/116126655-anish-singla"
+
+menu:
+    main:
+        - identifier: Home
+          name: Home
+          url: /
+        - identifier: Blog
+          name: Blog
+          url: /blog/
+        - identifier: Bookmarks
+          name: Bookmarks
+          url: /bookmarks/
+        - identifier: About Me
+          name: About Me
+          url: /about-me/
+
+outputs:
+    home:
+        - HTML
+    section:
+        - HTML
+    page:
+        - HTML

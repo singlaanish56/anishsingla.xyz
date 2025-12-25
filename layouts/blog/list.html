@@ -1,0 +1,50 @@
+{{ define "main" }}
+
+<h1 class="blogs-title">{{ .Title }}</h1>
+<br/>
+<div class="blogs-layout">
+
+  <!-- LEFT: cards -->
+  <section class="blogs-main">
+    {{ range .Pages.ByDate.Reverse }}
+      <a
+        class="blog-card"
+        href="{{ .RelPermalink }}"
+        data-tags="{{ delimit .Params.tags " " }}"
+      >
+
+        <h3 class="blog-title">
+            {{ .Title }}
+
+        </h3>
+
+        <div class="blog-meta">
+          {{ .Date.Format "Jan 2, 2006" }}
+        </div>
+
+        {{ with .Summary }}
+          <p class="blog-desc">{{ . | plainify }}</p>
+        {{ end }}
+
+      </a>
+    {{ end }}
+  </section>
+
+  <!-- RIGHT: sidebar -->
+  <aside class="blogs-sidebar">
+    <input
+      id="blog-search"
+      type="text"
+      placeholder="Search blogs..."
+    />
+
+    <div class="blog-tags-sidebar">
+      <h4>Tags</h4>
+      <div id="blog-tag-list"></div>
+    </div>
+  </aside>
+
+</div>
+
+<script src="/js/blog.js" defer></script>
+{{ end }}

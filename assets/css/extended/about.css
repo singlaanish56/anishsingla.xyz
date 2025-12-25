@@ -1,0 +1,27 @@
+.about-title {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+    --tw-text-opacity: 1;
+    color: hsl(75 94% 57% / var(--tw-text-opacity));
+}
+
+.resume-btn {
+    margin-top: 2rem;
+}
+
+.resume-btn a {
+    display: inline-block;
+    padding: 0.75rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    border: 1px solid currentColor;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    --tw-bg-opacity: 1;
+    background-color: hsl(0 0% 20% / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: hsl(0 0% 100% / var(--tw-text-opacity));
+}

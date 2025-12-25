@@ -1,0 +1,60 @@
+{{ define "main" }}
+
+<h1 class="bookmarks-title">{{ .Title }}</h1>
+<br/>
+<div class="bookmarks-layout">
+
+  <!-- LEFT: cards -->
+  <section class="bookmarks-main">
+    {{ range .Pages.ByDate.Reverse }}
+      <article
+        class="bookmark-card"
+        data-tags="{{ delimit .Params.tags " " }}"
+      >
+        {{ if in .Params.tags "unread" }}
+          <span class="unread-dot"></span>
+        {{ end }}
+
+        <h3 class="bookmark-title">
+          <a href="{{ .Params.link }}" target="_blank" rel="noopener">
+            {{ .Title }}
+          </a>
+        </h3>
+
+        <div class="bookmark-meta">
+          {{ .Date.Format "Jan 2, 2006" }}
+        </div>
+
+        {{ with .Summary }}
+          <p class="bookmark-desc">{{ . | plainify }}</p>
+        {{ end }}
+
+        {{ if .Params.tags }}
+          <div class="bookmark-tags">
+            {{ range .Params.tags }}
+              <span class="tag">#{{ . }}</span>
+            {{ end }}
+          </div>
+        {{ end }}
+      </article>
+    {{ end }}
+  </section>
+
+  <!-- RIGHT: sidebar -->
+  <aside class="bookmarks-sidebar">
+    <input
+      id="bookmark-search"
+      type="text"
+      placeholder="Search bookmarks..."
+    />
+
+    <div class="tags-sidebar">
+      <h4>Tags</h4>
+      <div id="tag-list"></div>
+    </div>
+  </aside>
+
+</div>
+
+<script src="/js/bookmarks.js" defer></script>
+{{ end }}

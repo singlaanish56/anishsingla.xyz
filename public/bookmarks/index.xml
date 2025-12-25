@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Bookmarks on </title>
+    <link>http://localhost:1313/bookmarks/</link>
+    <description>Recent content in Bookmarks on </description>
+    <generator>Hugo -- 0.153.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/bookmarks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloudflare Workers</title>
+      <link></link>
+      <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description>&lt;p&gt;Serverless JavaScript runtime running at the edge.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cloudflare Workers</title>
+      <link></link>
+      <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description>&lt;p&gt;Serverless JavaScript runtime running at the edge.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cloudflare Workers</title>
+      <link></link>
+      <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description>&lt;p&gt;Serverless JavaScript runtime running at the edge.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cloudflare Workers 4</title>
+      <link></link>
+      <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description>&lt;p&gt;Serverless JavaScript runtime running at the edge.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
