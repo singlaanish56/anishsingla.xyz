@@ -1,5 +1,7 @@
 name = "anishsingla-website"
 compatibility_date = "2025-12-26"
+workers_dev=true
+preview_urls= true
 
 [build]
 command = "chmod a+x build.sh && ./build.sh"
