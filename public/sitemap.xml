@@ -2,36 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://anishsingla.xyz/</loc>
     <lastmod>2025-12-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://anishsingla.xyz/blog/</loc>
     <lastmod>2025-12-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/chase/</loc>
+    <loc>https://anishsingla.xyz/tags/chase/</loc>
     <lastmod>2025-12-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/house/</loc>
+    <loc>https://anishsingla.xyz/tags/house/</loc>
     <lastmod>2025-12-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://anishsingla.xyz/tags/</loc>
     <lastmod>2025-12-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/test/</loc>
+    <loc>https://anishsingla.xyz/tags/test/</loc>
     <lastmod>2025-12-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/test_blog-_2/</loc>
+    <loc>https://anishsingla.xyz/blog/test_blog-_2/</loc>
     <lastmod>2025-12-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/test_blog/</loc>
+    <loc>https://anishsingla.xyz/blog/test_blog/</loc>
     <lastmod>2025-12-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/test_blog_1/</loc>
+    <loc>https://anishsingla.xyz/blog/test_blog_1/</loc>
     <lastmod>2025-12-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/bookmarks/</loc>
+    <loc>https://anishsingla.xyz/bookmarks/</loc>
     <lastmod>2025-10-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about-me/</loc>
+    <loc>https://anishsingla.xyz/about-me/</loc>
   </url>
 </urlset>
