@@ -3,7 +3,7 @@
     line-height: 2.25rem;
     font-weight: 700;
     --tw-text-opacity: 1;
-    color: hsl(75 94% 57% / var(--tw-text-opacity));
+    color: var(--greenGoblin);
 }
 
 .bookmarks-layout {

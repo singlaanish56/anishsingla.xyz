@@ -3,7 +3,7 @@
     line-height: 2.25rem;
     font-weight: 700;
     --tw-text-opacity: 1;
-    color: hsl(75 94% 57% / var(--tw-text-opacity));
+    color: var(--greenGoblin);
 }
 
 .resume-btn {
@@ -21,7 +21,7 @@
     border-radius: 0.5rem;
     font-weight: 600;
     --tw-bg-opacity: 1;
-    background-color: hsl(0 0% 20% / var(--tw-bg-opacity));
+    background-color: var(--primary);
     --tw-text-opacity: 1;
-    color: hsl(0 0% 100% / var(--tw-text-opacity));
+    color: var(--tertiary);
 }
