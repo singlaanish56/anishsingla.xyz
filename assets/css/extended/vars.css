@@ -1,0 +1,7 @@
+:root {
+    --greenGoblin: rgb(162, 11, 96);
+}
+
+:root[data-theme="dark"] {
+    --greenGoblin: hsl(75 80% 45%);
+}

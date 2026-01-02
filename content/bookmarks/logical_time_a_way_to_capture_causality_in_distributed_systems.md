@@ -1,10 +1,10 @@
 ---
-title: "Logical Time: A Way to Capture Causality in Distributed Systems"
-link: "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=047b65692819dd712f976a91b1096b809c88a7a7"
-tags: ["resources","distributedsystems","paper","unread"]
-date: 2025-02-25
+title: "A categorized list of C++ resources - MattPD"
+link: "https://github.com/MattPD/cpplinks/tree/master"
+tags: ["resources", "c++", "links", "unread"]
+date: 2025-02-21
 build:
-  render: false
+    render: false
 ---
 
-
+A categorized list of C++ resources. Contribute to MattPD/cpplinks development by creating an account on GitHub.
