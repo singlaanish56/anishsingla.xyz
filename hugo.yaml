@@ -2,6 +2,7 @@ baseURL: https://anishsingla.xyz/
 languageCode: en-us
 title: ""
 theme: ["PaperMod"]
+googleAnalytics: G-7G6ZMYVTT2
 
 taxonomies:
     tag: tags
@@ -42,7 +43,7 @@ params:
         - name: "x"
           url: "https://x.com/singlaanish56"
         - name: "twitch"
-          url: "https://www.twitch.tv/singlaanish56"
+          url: "https://www.twitch.tv/cracked_psyduck"
         - name: "goodreads"
           url: "https://www.goodreads.com/user/show/116126655-anish-singla"
 
