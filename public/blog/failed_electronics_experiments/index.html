@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Failed Experiments | </title>
+<meta name="keywords" content="electronics, splitKB, hardware, experiments, razer, Lily58Pro">
+<meta name="description" content="I have always been fascinated by electronics, mostly because I was surrounded by it growing up. My father used to deal with computers back in the day; he was the resident computer/repair guy for the extended circle. Back when computers were still new in India, this wasn&rsquo;t a small task. From resourcing the parts and learning to repair for the lack of warranties as such. I have tried learning it all while watching him spreading his magic repairing things around the house.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/blog/failed_electronics_experiments/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.17ba0de29e548bd93087c7d776f0291f827a2154fbd1360576c9a87c00d8d1c6.css" integrity="sha256-F7oN4p5Ui9kwh8fXdvApH4J6IVT70TYFdsmofADY0cY=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/blog/failed_electronics_experiments/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/about-me/" title="About Me">
+                    <span>About Me</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/blog/" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/bookmarks/" title="Bookmarks">
+                    <span>Bookmarks</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Failed Experiments
+    </h1>
+    <div class="post-meta"><span title='2026-01-27 00:00:00 +0000 UTC'>January 27, 2026</span>&nbsp;·&nbsp;<span>4 min</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>I have always been fascinated by electronics, mostly because I was surrounded by it growing up. My father used to deal with computers back in the day; he was the resident computer/repair guy for the extended circle. Back when computers were still new in India, this wasn&rsquo;t a small task. From resourcing the parts and learning to repair for the lack of warranties as such. I have tried learning it all while watching him spreading his magic repairing things around the house.</p>
+<p>There are a lot of things to unlearn as well, especially with terms to accepting failed repairs or experiments and not letting it rot in the corner. This is not a defeat but more of accepting that you still need to grow a bit more; you are still unskilled in pathways. It is a bit humbling.</p>
+<p>I am an Electronics Engineer by degree, you was proud of his soldering and tinkering skills. Skills that I have learnt on my own with limited budget and absolutely no academic course or help. So when years down the line, when I decide to pick it up again with assembling my own splitKB or repairing the rotary encoder on the mouse, failing to do so does hurt, not the genius I thought I was heh!. Dealing with electronics is an art, lost when not honed and practiced properly.</p>
+<p>On a deeper look, my problems lie with the part I never learnt about soldering the components together — desoldering. It is an act of patience, and the thought of it does make me pull my hair out like the slow internet days.</p>
+<p>Case in point 1 is this SplitKB — Lily58Pro. This would have been a perfect comeback story for the electronics engineer in me, if not for the blunder that needed me to desolder and remove the microcontroller from the PCB board. Hundreds of tries figuring out the copper desoldering wire and the desoldering pump; along with pulling my hair, I also pulled out the controller and the pins from the PCB.</p>
+<p>Genius move, right? Yeah, no. More like little to no foresight and knowledge on my part, and I ended up damaging the PCB copper connections and the soldering joints completely. I definitely hate myself for it, because a new PCB takes a long GroupBuy session and MOQ to get. Considering it was a split KB, I was successful in building half of the keyboard, which works perfectly on its own. I just wish this was a completed project.</p>
+<div class="img-grid">
+    <a href="/images/posts/2025/success-splitkb.jpeg">
+      <img src="/images/posts/2025/success-splitkb.jpeg" alt="Working Left Half">
+    </a>
+  <a href="/images/posts/2025/failed-splitkb.jpeg">
+    <img src="/images/posts/2025/failed-splitkb.jpeg" alt="Destroyed Right Half">
+  </a>
+</div>
+<p>You would think that I would learn from forcefully pulling the components from the PCB board out of frustration. I didn&rsquo;t!</p>
+<p>Case in point 2: lost the scrolling function for the Razer DeathAdder V2 Hyperspeed. One of first buys for the ever-upgrading gaming setup, which I rarely use. The mouse has been a trusty companion for a while now, almost 4 years. And while the Reddit threads did warn me about the scroll issues with the mouse, I really liked the shape and size, which is a perfect combination of ergonomics and performance. Meaning I didn&rsquo;t have to switch between mice when working or gaming.</p>
+<p>So when the scroll wheel gave out, I was reluctant to let it go. So after a lot of research, deep dive, and opening the screws on the old thing, I figured I could actually replace the encoder for the wheel and make it working again. Again, what a genius, you would say.</p>
+<p>Well, I was able to find a similar encoder, TTC white 14mm. They were cheap. But not learning from the previous desoldering outing, I didn&rsquo;t order better desoldering equipment. Sigh! Lo and behold, I did end up pulling out the encoder from the PCB out of frustration, damaging the connections. Installed the new one in some fake hope, but as expected, it didn&rsquo;t work.</p>
+<div class="img-grid">
+  <a href="/images/posts/2025/deathadder.jpeg">
+    <img src="/images/posts/2025/deathadder.jpeg" alt="Deathadder Opened Up">
+  </a>
+</div>
+<p>I think it hurts to accept that you are not the repair genius you think you are in the head. But also it&rsquo;s difficult to come out of the mindspace of losing money; most of my life has been like that. So now, when I have the means to spend on electronics and then fail or destroy components from my sheer stupidity, why is it so difficult that tinkering requires failing at some level and losing money?</p>
+<p>If anything, my 2026 goal is to tinker more and fail a lot more at this, learn to lose money trying to learn things irrespective of the outcome.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/electronics/">Electronics</a></li>
+      <li><a href="http://localhost:1313/tags/splitkb/">SplitKB</a></li>
+      <li><a href="http://localhost:1313/tags/hardware/">Hardware</a></li>
+      <li><a href="http://localhost:1313/tags/experiments/">Experiments</a></li>
+      <li><a href="http://localhost:1313/tags/razer/">Razer</a></li>
+      <li><a href="http://localhost:1313/tags/lily58pro/">Lily58Pro</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="http://localhost:1313/blog/wrapped_2025/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Wrapped 2025</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/"></a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

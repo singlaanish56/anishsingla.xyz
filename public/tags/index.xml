@@ -2,59 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on </title>
-    <link>https://anishsingla.xyz/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on </description>
     <generator>Hugo -- 0.153.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://anishsingla.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Electronics</title>
+      <link>http://localhost:1313/tags/electronics/</link>
+      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/electronics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Experiments</title>
+      <link>http://localhost:1313/tags/experiments/</link>
+      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/experiments/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hardware</title>
+      <link>http://localhost:1313/tags/hardware/</link>
+      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/hardware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lily58Pro</title>
+      <link>http://localhost:1313/tags/lily58pro/</link>
+      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/lily58pro/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Razer</title>
+      <link>http://localhost:1313/tags/razer/</link>
+      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/razer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SplitKB</title>
+      <link>http://localhost:1313/tags/splitkb/</link>
+      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/splitkb/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Games</title>
-      <link>https://anishsingla.xyz/tags/games/</link>
+      <link>http://localhost:1313/tags/games/</link>
       <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://anishsingla.xyz/tags/games/</guid>
+      <guid>http://localhost:1313/tags/games/</guid>
       <description></description>
     </item>
     <item>
       <title>Music</title>
-      <link>https://anishsingla.xyz/tags/music/</link>
+      <link>http://localhost:1313/tags/music/</link>
       <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://anishsingla.xyz/tags/music/</guid>
+      <guid>http://localhost:1313/tags/music/</guid>
       <description></description>
     </item>
     <item>
       <title>PS5</title>
-      <link>https://anishsingla.xyz/tags/ps5/</link>
+      <link>http://localhost:1313/tags/ps5/</link>
       <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://anishsingla.xyz/tags/ps5/</guid>
+      <guid>http://localhost:1313/tags/ps5/</guid>
       <description></description>
     </item>
     <item>
       <title>Replay</title>
-      <link>https://anishsingla.xyz/tags/replay/</link>
+      <link>http://localhost:1313/tags/replay/</link>
       <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://anishsingla.xyz/tags/replay/</guid>
+      <guid>http://localhost:1313/tags/replay/</guid>
       <description></description>
     </item>
     <item>
       <title>Steam</title>
-      <link>https://anishsingla.xyz/tags/steam/</link>
+      <link>http://localhost:1313/tags/steam/</link>
       <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://anishsingla.xyz/tags/steam/</guid>
+      <guid>http://localhost:1313/tags/steam/</guid>
       <description></description>
     </item>
     <item>
       <title>Wrapped</title>
-      <link>https://anishsingla.xyz/tags/wrapped/</link>
+      <link>http://localhost:1313/tags/wrapped/</link>
       <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://anishsingla.xyz/tags/wrapped/</guid>
+      <guid>http://localhost:1313/tags/wrapped/</guid>
       <description></description>
     </item>
     <item>
       <title>Wrapup</title>
-      <link>https://anishsingla.xyz/tags/wrapup/</link>
+      <link>http://localhost:1313/tags/wrapup/</link>
       <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://anishsingla.xyz/tags/wrapup/</guid>
+      <guid>http://localhost:1313/tags/wrapup/</guid>
       <description></description>
     </item>
   </channel>

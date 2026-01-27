@@ -2,42 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://anishsingla.xyz/</loc>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/</loc>
+    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/electronics/</loc>
+    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/experiments/</loc>
+    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/failed_electronics_experiments/</loc>
+    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/hardware/</loc>
+    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/lily58pro/</loc>
+    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/razer/</loc>
+    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/splitkb/</loc>
+    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookmarks/</loc>
+    <lastmod>2026-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/games/</loc>
     <lastmod>2026-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anishsingla.xyz/blog/</loc>
+    <loc>http://localhost:1313/tags/music/</loc>
     <lastmod>2026-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anishsingla.xyz/tags/games/</loc>
+    <loc>http://localhost:1313/tags/ps5/</loc>
     <lastmod>2026-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anishsingla.xyz/tags/music/</loc>
+    <loc>http://localhost:1313/tags/replay/</loc>
     <lastmod>2026-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anishsingla.xyz/tags/ps5/</loc>
+    <loc>http://localhost:1313/tags/steam/</loc>
     <lastmod>2026-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anishsingla.xyz/tags/replay/</loc>
+    <loc>http://localhost:1313/tags/wrapped/</loc>
     <lastmod>2026-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anishsingla.xyz/tags/steam/</loc>
+    <loc>http://localhost:1313/blog/wrapped_2025/</loc>
     <lastmod>2026-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anishsingla.xyz/tags/</loc>
+    <loc>http://localhost:1313/tags/wrapup/</loc>
     <lastmod>2026-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anishsingla.xyz/tags/wrapped/</loc>
-    <lastmod>2026-01-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anishsingla.xyz/blog/wrapped_2025/</loc>
-    <lastmod>2026-01-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anishsingla.xyz/tags/wrapup/</loc>
-    <lastmod>2026-01-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anishsingla.xyz/bookmarks/</loc>
-    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anishsingla.xyz/about-me/</loc>
+    <loc>http://localhost:1313/about-me/</loc>
   </url>
 </urlset>
