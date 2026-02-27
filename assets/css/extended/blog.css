@@ -162,3 +162,38 @@
     color: var(--secondary);
     border-color: var(--primary);
 }
+
+@media (max-width: 768px) {
+
+    /* Single column */
+    .blogs-layout {
+        grid-template-columns: 1fr;
+    }
+
+    /* Remove divider */
+    .blogs-sidebar {
+        border-left: none;
+        padding-left: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    /* Move sidebar ABOVE cards */
+    .blogs-sidebar {
+        order: -1;
+    }
+
+    /* Make tags collapsible */
+    .blog-tags-sidebar h4 {
+        display: none;
+    }
+
+    .blog-tags-sidebar #blog-tag-list {
+        display: none;
+    }
+
+    /*.tags-sidebar.open #tag-list {
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+    }*/
+}

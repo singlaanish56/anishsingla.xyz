@@ -162,3 +162,42 @@
     color: var(--secondary);
     border-color: var(--primary);
 }
+
+/* ============================= */
+/* MOBILE LAYOUT (CSS ONLY) */
+/* ============================= */
+
+@media (max-width: 768px) {
+
+    /* Single column */
+    .bookmarks-layout {
+        grid-template-columns: 1fr;
+    }
+
+    /* Remove divider */
+    .bookmarks-sidebar {
+        border-left: none;
+        padding-left: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    /* Move sidebar ABOVE cards */
+    .bookmarks-sidebar {
+        order: -1;
+    }
+
+    /* Make tags collapsible */
+    .tags-sidebar h4 {
+        display: none;
+    }
+
+    .tags-sidebar #tag-list {
+        display: none;
+    }
+
+    /*.tags-sidebar.open #tag-list {
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+    }*/
+}
